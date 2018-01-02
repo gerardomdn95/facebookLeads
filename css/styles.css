@@ -1,9 +1,9 @@
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
     color: #3a4d57;
 }
 
-h6{
+h6 {
     color: #3DCCBB;
 }
 
@@ -11,9 +11,9 @@ h6{
     background: linear-gradient(to right, #3DCCBB, #33A2BD);
 }
 
-.btn-outline-success{
+.btn-outline-success {
     width: 100%;
-    border-radius: 25px;
+    border-radius: 100px;
 }
 
 #logo {
@@ -25,34 +25,47 @@ h6{
     width: -webkit-fill-available;
 }
 
-#solicita{
+#solicita {
     width: 90%;
 }
 
-input[type="range"]{
-    -webkit-appearance:none;
+#upload {
+    font-size: 13px;
+}
+
+#attach {
+    transform: rotate(35deg);
+    font-size: 18px;
+    color: white;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
     width: 95%;
-    height:2px;
-    background: aqua;
-    background-position:center;
-    background-repeat:no-repeat;
+    height: 2px;
+    background: #3DCCBB;
+    background-position: center;
+    background-repeat: no-repeat;
     position: absolute;
     top: 0px;
     bottoM: 0px;
     left: 0px;
     right: 0px;
-    margin: auto;
-    margin-top: 0%;
-  }
-  
-  input[type="range"]::-webkit-slider-thumb{
-    -webkit-appearance:none;
-    width:20px;
-    height:20px;
+    margin: 10px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
     border-radius: 100%;
     background: #434343;
-    position:relative;
-    border: 10px solid rgba(255,255,255,.9);
-    z-index:3;
+    position: relative;
+    border: 10px solid rgba(255, 255, 255, .9);
+    z-index: 3;
     cursor: pointer;
-  }
+}
