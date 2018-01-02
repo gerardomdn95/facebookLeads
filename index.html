@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Koomkin</title>
+</head>
+
+<body>
+
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <img id="logo" src="img/logo.png" alt="">
+    </li>
+  </ul>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h6 class="text-center">Hola {{nombre usuario}} platícanos más sobre tu requerimiento</h6>
+      </div>
+      <div class="col-12">
+        <p class="text-center">Esta cotización es:</p>
+      </div>
+      <div class="col-6 text-center">
+        <button class="btn btn-outline-success text-center">para tu empresa</button>
+      </div>
+      <div class="col-6 text-center">
+        <button class="btn btn-outline-success text-center">personal</button>
+      </div>
+      <div class="col-12">
+        <p>Describe brevemente tu requerimiento</p>
+        <input type="text" class="form-control">
+      </div>
+      <div class="col-12 text-right">
+        <p class="">¿Necesitas adjuntar un archivo?</p>
+        <!-- <p>Plano, fotografía, boceto, etc... (máx MB)</p>
+        <input type="file"> -->
+      </div>
+      <div class="col-12">
+        <p class="text-center">¿Qué tan rápido necesitas el requerimiento?</p>
+      </div>
+      <div class="col-4">
+        <p>Inmediatamente</p>
+      </div>
+      <div class="col-4">
+        <p class="text-center">En 24hrs</p>
+      </div>
+      <div class="col-4">
+        <p class="text-right">En 48hrs</p>
+      </div>
+      <div class="col-12">
+        <input type="range" min="0" max="4">
+      </div>
+      <br>
+      <div class="col-12 text-center">
+        <button id="solicita" class="btn btn-warning">
+          <b>¡Solicita aquí tu cotización!</b>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
